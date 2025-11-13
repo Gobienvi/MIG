@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+ <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mums in Geosciences</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+     
+   .logo {
+        height: 70px;
+        margin-right: 2rem;
+  
+      }
+      @media (max-width: 768px) {
+        .logo {
+          height: 28px;
+          margin-right: 1rem;
+          
+      } }
+      .hero-2col-layout {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: center;
+        margin-top: 0;
+        padding: 0;
+      }
+      
+      .hero-column {
+        flex: 1;
+        min-width: 300px;
+      }
+      
+      .right-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .right-column img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+      <img src="/images/mumlogo.png" alt="Mums in Geosciences Logo" class="logo" onclick="scrollToSection('hero')" style="cursor: pointer;" />
+      <button onclick="scrollToSection('about')">About</button>
+      <button onclick="scrollToSection('yourstory')">YourStory</button>
+      <button onclick="scrollToSection('testimonies')">Testimonies</button>
+      <button onclick="scrollToSection('community')">Community</button></div>
+    </nav>
+  </div>
+</header>
+    
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-2col-layout">
+          <!-- Left Column (Text Content) -->
+          <div class="hero-column">
+            <div class="hero-item overlay-box1" style="overflow: visible; min-height: 150px;">
+            
+              <div class="overlay-text" style="overflow: visible;">
+              <h1>Stories from <span style="color:#748C76;">Mums</span> working in geosciences</h1>
+  <p>Creating space for mothers working in geosciences to connect, reflect, and feel seen.</p>
+</div>
+            </div>
+            
+            <div class="hero-buttons">
+              <button onclick="scrollToSection('yourstory')" class="btn btn-primary">
+                Share your story
+              </button>
+              <button onclick="scrollToSection('testimonies')" class="btn btn-secondary">
+                Read others' stories
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Column (Image) -->
+          <div class="hero-column right-column">
+           <img class="centered-image" src="images/hands.jpeg" alt="Mum and child" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rest of your content would go here -->
+    
+    <script>
+      function scrollToSection(sectionId) {
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+      }
+    </script>
+  </body>
+</html>
+
+
+                <!-- About -->
+                <section class="section" id="about">
+                  <div class="container" style="max-width: 3200px;">
+                    <div class="about-flex" style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+                  </div>
+<header class="header1">
+  <h1>Welcome to Mums in Geosciences</h1>
+</header>
+
+<section class="about-container">
+  <div class="project-for">
+    <h2>This Project Is For</h2>
+    <ul>
+      <li>Geoscientists <strong>planning to become parents</strong>  and seeking honest perspectives on what to expect.</li>
+      <li> Geoscientists <strong>with young children</strong>  who are balancing career aspirations with family life.</li>
+      <li> <strong>Experienced professionals</strong>  whose children are older and who wish to reflect on and share their journey.</li>
+      <li> Mums who <strong>left the profession</strong>,  to share the reasons they left and what paths they pursued next.</li>
+      <li> <strong>Dads in geosciences</strong> who feel that parenting has significantly impacted their career and want to share their experiences.</li>
+    </ul>
+  </div>
+
+  <div class="why-project">
+    <h2>Why this Project?</h2>
+    <p>
+      Being a mum, or planning to become one, while working in a <strong>field-intensive profession</strong> like geoscience can feel daunting.
+      Many of us face these challenges in isolation, with little visibility or open discussion about the impact on our careers and lives.
+    </p>
+    <p>
+      At Mums in Geosciences, we believe that we can find <strong>comfort and strength</strong> in each other’s stories.
+    </p>
+    <p>
+      This project aims to create a supportive, visible, and empowering platform that highlights the voices and experiences of mothers in geoscience—so we can feel seen, heard, and connected.
+    </p>
+    <p class="highlight"><strong>You’re not alone—we’re stronger when we share!</strong></p>
+  </div>
+</section>
+
+<section class="aims">
+  <h2>Our Aims</h2>
+  <ul>
+    <li>💬 <strong>Share testimonies</strong>&nbsp;from mothers working, or who have worked, in geoscience.</li>
+    <li>💬 <strong>Celebrate</strong>&nbsp;the contributions of mothers in geoscience.</li>
+    <li>💬 <strong>Encourage connection</strong>&nbsp;and solidarity through storytelling.</li>
+    <li>💬 <strong>Provide insights</strong>&nbsp;to others who are planning for, or navigating, parenthood.</li>
+  </ul>
+</section>
+
+                <!-- Share Your Story Section -->
+                <section class="section alt" id="yourstory">
+                <div class="container text-center">
+                <h2>Share Your Story</h2>
+                <a class="story-link" href="https://forms.gle/HDeLcPXuku3UW5gz9" target="_blank" style="font-size:1.8rem;">
+                  https://forms.gle/HDeLcPXuku3UW5gz9
+                </a>
+                
+                <li>*This questionnaire works with a google account. If you do not have one, email us here to receive .pdf version : mumsingeosciences@gmail.com.</li>
+                <br>
+                </div>
+
+
+                <!-- Testimonies Section --> 
+<section class="section" id="testimonies">
+      <div class="testimony-header-bg">
+        <h2 class="text-center">Testimonies</h2>
+      </div>
+      <div class="container">
+        <ul class="testimony-list">
+          <li class="testimony-list-item">
+            <a href="constanza-jara-testimony.html">
+              <div class="testimony-card-content">
+                <h4>Constanza Jara</h4>
+                <p class="job-title">Mother of two (infant and preschooler)<br>Barrick Exploration Manager Dominican Republic and Jamaica</p>
+                <p>I wanted to become a geologist ever since I was in Primary School, for I loved the outdoors and did not want an office job. I found Earth Sciences fascinating ...</p>
+              </div>
+            </a>
+          </li>
+          <li class="testimony-list-item">
+            <a href="Emilie.html">
+              <div class="testimony-card-content">
+                <h4>Emilie</h4>
+                <p class="job-title">Mother of two (pre-teens)<br>Database Geologist</p>
+                <p> I changed from exploration geologist fifo in campaign style (2 weeks on site and 1 week at the office) to Database administrator 4 years after having kids. I got the right opportunity...</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+                
+
+    <!-- Advice Section -->
+ <section class="section advice-section">
+      <div class="container">
+        <h2>Advice from Mums</h2>
+        <ul>
+          <li>"" Get an office based job before it happens and never trust mining companies when you tell them you are pregnant (save everv emalls, communications and know your rights), some could stll try to make you redundant instead of trying to accomodate if they can justify. -Emilie</li>
+          
+          <li>"Anticipate by getting a job that is flexible" – Laura</li>
+
+          
+          <li>“Believe in yourselves, you CAN be a field geologist and a mother if you want to. Talk about it with your partner, if you have, or with your support circle, so you’re all in the same page and work together. There’s no shame on asking for help on anything. If you’re confident, plan together with the company too, there’s no bad in discussing this at work so you can all plan for your time off and when you return. Try to learn the skills on the way that will help you to find a balance, such as time-management. As a working mother anyway you’ll have to prioritize. And if you don’t want to do any of this and change your mind and be full time with your family, that’s OK too! In the end, just be honest with yourself and with the people you care around you.” - Constanza</li>
+        </ul>
+      </div>
+    </section>
+    <!-- Testimonies graph Section -->
+    <section class="section" id="testimonies graph">
+      <div class="container">
+        <h2>Testimonies graph</h2>
+     
+
+    <!-- Graph / Responses -->
+   <section class="section alt" style="padding: 0;">
+  
+  <img
+    src="images/graph2.png"
+    alt="Graph showing responses"
+    style="width: 80vw; height: auto; display: block; margin: 0 auto;"
+  />
+</section>
+
+
+
+
+    <!-- Community Section -->
+   <section class="section alt" id="community">
+  <div class="container">
+    <h2 class="text-center">Community Hub</h2>
+    <div class="grid">
+      
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/100/748c76/children.png" alt="Playgroup image" class="card-image" />
+        <h3>Family Meetups</h3>
+        <p>Join our playgroups and connect with other mums and children in geosciences.</p>
+        <button class="btn btn-primary">Join a Meetup</button><p class="note">Currently maintaining…</p>
+      </div>
+      
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/100/748c76/chat.png" alt="Chat image" class="card-image" />
+        <h3>Community Chat</h3>
+        <p>Share experiences, ask questions, and support each other through our chat space.</p>
+        <button class="btn btn-primary">Join Chatting</button><p class="note">Currently maintaining…</p>
+      </div>
+      
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/100/748c76/document--v1.png" alt="Article image" class="card-image" />
+        <h3>Share Your Story</h3>
+        <p>Contribute articles or personal experiences to inspire and empower our community.</p>
+        <button class="btn btn-primary">Contribute</button>
+        <p class="note">Currently maintaining…</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container text-center">
+        <h2>Contact Us</h2>
+        <p>mumsingeosciences@gmail.com</p>
+       <hr>
+    <p class="copyright">© 2025 Mums in Geosciences. All rights reserved.</p>
+  </div>
+    </footer>
+
+    <script>
+      function scrollToSection(id) {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+      }
+    </script>
+  </body>
+</html>
