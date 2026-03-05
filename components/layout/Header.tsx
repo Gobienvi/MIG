@@ -22,11 +22,11 @@ export function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/images/mumlogo.png"
+            src="/images/mumlogo-removebg.png"
             alt="Mums in Geosciences Logo"
             width={80}
             height={80}
-            className="object-contain mix-blend-multiply"
+            className="object-contain"
           />
         </Link>
 

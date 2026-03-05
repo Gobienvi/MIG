@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     images: ['/images/mumlogo.png'],
   },
   icons: {
-    icon: '/images/mumlogo.png',
+    icon: '/images/mumlogo-removebg.png',
   },
 };
 
