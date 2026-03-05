@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 export function Hero() {
   return (
-    <section id="hero" className="bg-[#faf8f6] py-16 md:py-24 px-4">
+    <section id="hero" className="bg-gradient-to-br from-[#faf8f6] via-[#f0ece6] to-[#e7dfd6] py-16 md:py-24 px-4">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Text */}
         <div>
@@ -39,7 +39,7 @@ export function Hero() {
             alt="Mum and child"
             width={500}
             height={400}
-            className="rounded-2xl object-cover shadow-lg w-full max-w-md"
+            className="rounded-2xl object-cover shadow-lg w-full max-w-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
           />
         </div>
       </div>

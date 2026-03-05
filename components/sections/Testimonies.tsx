@@ -7,7 +7,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function Testimonies() {
   return (
-    <section id="testimonies" className="py-16 md:py-24 px-4 bg-[#f4f0eb]">
+    <section id="testimonies" className="py-16 md:py-24 px-4 bg-[#f4f0eb] animate-fade-in">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[#4f3c40] mb-12">
           Testimonies
@@ -15,7 +15,7 @@ export function Testimonies() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {testimonies.map((t) => (
             <Link key={t.slug} href={`/testimonies/${t.slug}`}>
-              <Card className="h-full border-[#e7dfd6] hover:border-[#748c76] hover:shadow-md transition-all cursor-pointer group bg-white">
+              <Card className="h-full border-[#e7dfd6] hover:border-[#748c76] hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-pointer group bg-white">
                 <CardHeader className="flex flex-row items-start gap-4 pb-3">
                   <Avatar className="h-14 w-14 flex-shrink-0">
                     {t.image ? (

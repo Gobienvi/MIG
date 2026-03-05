@@ -16,7 +16,7 @@ export function YourStory() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button className="bg-white text-[#4f3c40] hover:bg-[#faf8f6] font-semibold px-8 py-3 text-base gap-2">
+          <Button className="bg-white text-[#4f3c40] hover:bg-[#faf8f6] hover:scale-105 active:scale-95 font-semibold px-8 py-3 text-base gap-2 shadow-lg hover:shadow-white/40 transition-all duration-200 animate-pulse hover:animate-none">
             Click here to share your story <ExternalLink className="h-4 w-4" />
           </Button>
         </a>

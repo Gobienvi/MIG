@@ -17,7 +17,7 @@ const aims = [
 
 export function About() {
   return (
-    <section id="about" className="py-16 md:py-24 px-4">
+    <section id="about" className="py-16 md:py-24 px-4 animate-fade-in">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[#4f3c40] mb-12">
           Welcome to Mums in Geosciences
