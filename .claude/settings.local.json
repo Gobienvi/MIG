@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sips --help)",
+      "Bash(npm run build 2>&1)",
+      "Bash(rm -rf node_modules && npm install 2>&1)"
+    ]
+  }
+}
