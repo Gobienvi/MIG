@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
@@ -45,7 +44,7 @@ export function ProfileLayout({ testimony }: ProfileLayoutProps) {
         <Separator className="mb-8 bg-[#e7dfd6]" />
 
         {/* Story */}
-        <article className="prose prose-lg max-w-none text-[#1a1a1a] leading-relaxed space-y-5">
+        <article className="max-w-none text-[#1a1a1a] leading-relaxed space-y-5 text-base md:text-lg">
           {testimony.paragraphs.map((para, i) => (
             <p key={i}>{para}</p>
           ))}
