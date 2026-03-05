@@ -19,13 +19,13 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-[#faf8f6]/95 backdrop-blur border-b border-[#d6cec8]">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/images/mumlogo.png"
             alt="Mums in Geosciences Logo"
-            width={48}
-            height={48}
+            width={80}
+            height={80}
             className="object-contain"
           />
         </Link>
