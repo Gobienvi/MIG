@@ -54,7 +54,7 @@ export function Footer() {
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-white/50 text-xs">
-            © 2025 Mums in Geosciences. All rights reserved.
+            © 2026 Mums in Geosciences. All rights reserved.
           </p>
           <Link
             href="/privacy"
