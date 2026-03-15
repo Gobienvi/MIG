@@ -71,6 +71,9 @@ export function GraphSection() {
             />
           ))}
         </div>
+        <p className="text-center text-sm text-[#748c76] mt-8">
+          Data updated: {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+        </p>
       </div>
     </section>
   );
