@@ -34,13 +34,18 @@ export function Hero() {
 
         {/* Image */}
         <div className="flex justify-center">
-          <Image
-            src="/images/hands.jpeg"
-            alt="Mum and child"
-            width={500}
-            height={400}
-            className="rounded-2xl object-cover shadow-lg w-full max-w-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
-          />
+          <div className="relative w-full max-w-2xl rounded-xl overflow-hidden shadow-xl ring-4 ring-[#e7dfd6] ring-offset-4 ring-offset-[#faf8f6]">
+            <Image
+              src="/images/mum-and-child.jpeg"
+              alt="Mum and child walking together"
+              width={500}
+              height={620}
+              priority
+              className="w-full max-h-[400px] md:max-h-[620px] object-cover object-center hover:scale-105 transition-transform duration-500"
+              style={{ filter: 'brightness(1.05) contrast(1.05) saturate(1.1)' }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#054622]/20 to-transparent" />
+          </div>
         </div>
       </div>
     </section>

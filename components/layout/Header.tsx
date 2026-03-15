@@ -24,8 +24,8 @@ export function Header() {
           <Image
             src="/images/mumlogo-removebg.png"
             alt="Mums in Geosciences Logo"
-            width={80}
-            height={80}
+            width={110}
+            height={110}
             className="object-contain"
           />
         </Link>
@@ -36,7 +36,7 @@ export function Header() {
             <a
               key={link.label}
               href={link.href}
-              className="px-4 py-2 text-sm font-medium text-[#546555] hover:text-[#4f3c40] transition-colors rounded-md hover:bg-[#e7dfd6]"
+              className="px-4 py-2 text-lg font-medium text-[#546555] hover:text-[#4f3c40] transition-colors rounded-md hover:bg-[#e7dfd6]"
             >
               {link.label}
             </a>
