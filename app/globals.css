@@ -158,4 +158,26 @@
     50%  { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
   }
+
+  .rock-float-1 { animation: rockFloat1 7s ease-in-out infinite; }
+  .rock-float-2 { animation: rockFloat2 9s ease-in-out infinite; }
+  .rock-float-3 { animation: rockFloat3 11s ease-in-out infinite; }
+  .rock-float-4 { animation: rockFloat4 8s ease-in-out infinite; }
+
+  @keyframes rockFloat1 {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50%       { transform: translateY(-14px) rotate(3deg); }
+  }
+  @keyframes rockFloat2 {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50%       { transform: translateY(-10px) rotate(-4deg); }
+  }
+  @keyframes rockFloat3 {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50%       { transform: translateY(-18px) rotate(2deg); }
+  }
+  @keyframes rockFloat4 {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50%       { transform: translateY(-12px) rotate(-3deg); }
+  }
 }
